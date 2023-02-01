@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgb(17, 17, 80);
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+
+
+main{
+    h1{
+        margin-top: 5%;
+        margin-bottom: 4%;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .none{
+        display: none;
+    }
+    form{
+        width: 100%;
+        padding: 1rem;
+        border: 2px solid gray;
+        
+        h2{
+            padding-bottom: 0.5rem;
+        }
+        p{
+            padding-bottom:0.2rem;
+        }
+        input{
+            width: 100%;
+            height: 1.6rem;
+            border-radius: 5px;
+            outline: none;
+            padding-left:5px;
+            margin-bottom: 2%;
+        }
+        .btn{
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            button{
+                width: 50%;
+                height: 1.6rem;
+                font-weight: 600;
+                color: white;
+                padding: 0.5%;
+                cursor: pointer;
+                border-radius: 5px;
+                
+            }
+            .cancel{
+                background-color: rgb(255, 52, 52);
+            }
+            .salve{
+                background-color: green;
+            }
+
+        }
+        
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        h3{
+            font-size: 1.8rem;
+        }
+        button{
+            height: 2rem;
+            padding: 0.5%;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    
+    .infos{
+        border-bottom: 1px solid white;
+        padding: 1% 0.5%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .tabela{
+        margin-top: 1%;
+        tr{
+            display: flex;
+            justify-content: space-between;
+            td{
+                margin: 1%;
+                button{
+                    background-color: red;
+                    color: white;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    
+}
